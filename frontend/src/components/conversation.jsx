@@ -18,7 +18,7 @@ export default function Conversation() {
 		}, 100);
 	}, [messages]);
     return (
-        <div className=' h-full pb-16 md:h-96 overflow-hidden overflow-y-scroll scroll-smooth relative top-10 '>
+        <div className=' h-full pb-16  overflow-hidden overflow-y-scroll scroll-smooth relative top-10 '>
         {(messages.length === 0)? (
             <p>send messages to start the chat</p>
         ) :

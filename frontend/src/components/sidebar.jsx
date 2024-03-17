@@ -14,17 +14,6 @@ export default function Sidebar() {
         {profile.map((profile)=>(
           <Profiles key={profile._id}
           profile={profile}/>
-          
-       ))}
-       {profile.map((profile)=>(
-          <Profiles key={profile._id}
-          profile={profile}/>
-          
-       ))}
-       {profile.map((profile)=>(
-          <Profiles key={profile._id}
-          profile={profile}/>
-          
        ))}
         </div>
         
