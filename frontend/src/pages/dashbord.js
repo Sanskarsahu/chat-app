@@ -5,7 +5,7 @@ import Conversations from '../components/conversations'
 
 export default function Dashbord() {
   return (
-    <div className="h-screen w-screen overflow-hidden">
+    <div className="back h-screen w-screen overflow-hidden">
       <div className='w-full z-10'>
         <Navbar />
       </div>

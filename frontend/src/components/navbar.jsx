@@ -9,8 +9,8 @@ const Navbar = () => {
 
         <div className="navbar bg-transparent sticky">
             <div className="flex-1">
-                <div className=' md:p-5 text-4xl bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500 gap-x-3 font-extrabold drop-shadow-xl'>
-                    <h5>chat app </h5>
+                <div className=' md:p-5 text-4xl text-black gap-x-3 font-bold drop-shadow-xl'>
+                    <h5>chat app</h5>
                 </div>
             </div>
             <div className="flex-none gap-2">

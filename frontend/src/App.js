@@ -10,9 +10,9 @@ import { useAuthContext } from './context/AuthContext';
 function App() {
   const{auth}=useAuthContext()
   return (
-  <div className="back h-screen w-screen ">
+  <div className=" back h-screen w-screen ">
     <Routes >
-     <Route path='/' element={auth ? <Dashbord/>: <Navigate to={"/login"}/>}/>
+     <Route path='/' element={auth ? <Dashbord/> : <Navigate to={"/login"}/>}/>
      <Route path='/login' element={auth ? <Navigate to={"/"}/>:<Login/>}/>
      <Route path='/signup' element={auth ? <Navigate to={"/"}/>: <Signup/>}/>
     </Routes>

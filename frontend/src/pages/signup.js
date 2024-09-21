@@ -24,7 +24,7 @@ const Signup = () => {
     return (
         <div className="h-full w-full flex justify-center items-center">
             <div className=' overflow-hidden w-96 flex flex-col items-center justify-center bg-blue-100 rounded-md bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 border border-gray-100'>
-                <div className=' p-3 text-5xl bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500 gap-x-3 font-extrabold drop-shadow-xl'>
+                <div className=' p-3 text-5xl text-black gap-x-3 font-extrabold drop-shadow-xl'>
                     <h1>Signup </h1>
                 </div>
                 <form  className="flex flex-col gap-6 ">
@@ -49,7 +49,7 @@ const Signup = () => {
                         <option value="male">male</option>
                         <option value="female">female</option>
                     </select>
-                    <span>already have an account? <Link to='/login' >login</Link></span>
+                    <span className=' text-black cursor-pointer text-lg'>already have an account? <Link className='text-red-500  hover:text-red-600' to='/login' >login</Link></span>
                     <div className="pb-5 flex items-center justify-center"><button onClick={handleSubmit} className="btn glass" >Signup</button></div>
                 </form>
             </div>

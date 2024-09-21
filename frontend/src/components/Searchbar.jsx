@@ -32,7 +32,7 @@ const Searchbar = () => {
 				onChange={(e) => setSearch(e.target.value)}
 			/>
 			<button onClick={handleSubmit} className='absolute inset-y-0 right-3 flex items-center pl-3'>
-            <SearchIcon className="h-5 w-5 text-gray-400" />
+            <SearchIcon className="h-5 w-5" />
 			</button>
 	
     </div>

@@ -1,8 +1,6 @@
-
 import { useState } from 'react'
 import toast from 'react-hot-toast';
 import { useAuthContext } from '../context/AuthContext';
-
 
 export default function useLogin() {
     const [loding, setLoading] = useState(false);
@@ -41,8 +39,5 @@ function handleInputError(username, password) {
         toast.error("please fill all the fields")
         return false;
     }
-    
-   
     return true;
-
 }
