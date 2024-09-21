@@ -10,7 +10,7 @@ export default function Dashbord() {
         <Navbar />
       </div>
       <div className="flex flex-row gap-10 ">
-        <div className='relative  left-5 '>
+        <div className='sm-relative  sm-left-5 '>
           <Sidebar />
         </div>
         <div className="w-full relative left:0 md:pr-2 md:pb-1 ">

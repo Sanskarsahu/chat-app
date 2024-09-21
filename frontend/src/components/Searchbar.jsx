@@ -23,7 +23,7 @@ const Searchbar = () => {
 		} else toast.error("No such user found!");
 	};
 	return (
-		<div className="w-48 flex items-center gap-2 relative">
+		<div className="w-screen md:w-full flex items-center gap-2 relative px-1">
 			<input
 				type='text'
 				placeholder='Search…'

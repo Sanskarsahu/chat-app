@@ -7,7 +7,7 @@ const Navbar = () => {
     const { auth } = useAuthContext()
     return (
 
-        <div className="navbar bg-transparent sticky">
+        <div className="navbar bg-transparent sticky ">
             <div className="flex-1">
                 <div className=' md:p-5 text-4xl text-black gap-x-3 font-bold drop-shadow-xl'>
                     <h5>chat app</h5>
